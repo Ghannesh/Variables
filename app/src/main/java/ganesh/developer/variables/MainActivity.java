@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         TextView text = findViewById(R.id. Text);
 
         int sumTwoIntegerNumbers = 12 + 15;
-        text.setText(sumTwoIntegerNumbers + "");
+        text.setText(sumTwoIntegerNumbers + ""+ sumTwoIntegerNumbers);
 
 
     }
